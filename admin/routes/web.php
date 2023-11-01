@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\VisitorController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\GalleryController;
+use App\Http\Controllers\TeachersController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,5 +43,12 @@ Route::get('/gallery/edit/{id}', [GalleryController::class, 'Edit'])->name('gall
 Route::post('/gallery/update/{id}', [GalleryController::class, 'Update'])->name('gallery.update');
 Route::get('/gallery/delete/{id}', [GalleryController::class, 'Delete'])->name('gallery.delete');
 
+//Teachers List.................
+Route::get('/teachers', [TeachersController::class, 'Index'])->name('teachers.view');
+Route::get('/teachers/add', [TeachersController::class, 'Add'])->name('teachers.add');
+Route::post('/teachers/store', [TeachersController::class, 'Store'])->name('teachers.store');
+Route::get('/teachers/edit/{id}', [TeachersController::class, 'Edit'])->name('teachers.edit');
+Route::post('/teachers/update/{id}', [TeachersController::class, 'Update'])->name('teachers.update');
+Route::get('/teachers/delete/{id}', [TeachersController::class, 'Delete'])->name('teachers.delete');
 
 
