@@ -58,7 +58,7 @@
                                          <!-- <td>{{$teachers->gender}}</td>  -->
                                         <!-- <td>{{$teachers->dateOfBirth}}</td> -->
                                         <td>{{$teachers->designation}}</td>
-                                        <td><img style="width: 45px; height:45px" class="card-img-top" src="{{$teachers->image}}" alt=""></td>
+                                        <td><img style="width: 45px; height:45px" class="card-img-top" src="/images/{{$teachers->image}}" alt=""></td>
                                         <td>
                                             <a href="{{route('teachers.edit', $teachers->id)}}" class="btn btn-sm btn-primary" title="Edit"><i class="fa fa-edit"></i></a> 
                                             <a href="{{route('teachers.delete', $teachers->id)}}" class="btn btn-sm btn-danger" id="delete" title="Delete"><i class="fa fa-trash"></i></a>

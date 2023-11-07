@@ -7,15 +7,15 @@
     <title>@yield('title')</title>
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/custom.css')}}">
-    {{-- <link rel="stylesheet" href="{{asset('css/mdb.min.css')}}">
+    <!-- <link rel="stylesheet" href="{{asset('css/mdb.min.css')}}">
     <link rel="stylesheet" href="{{asset('css/mdb.rtl.min.css')}}">
-    <link rel="stylesheet" href="{{asset('css/mdb.dark.min.css')}}"> --}}
+    <link rel="stylesheet" href="{{asset('css/mdb.dark.min.css')}}"> -->
     <link rel="stylesheet" href="https://fonts.google.com/specimen/Open+Sans?query=san">
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    
+     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('backend/')}}/plugins/fontawesome-free/css/all.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
@@ -33,7 +33,7 @@
     <!-- summernote -->
     <link rel="stylesheet" href="{{asset('backend/')}}/plugins/summernote/summernote-bs4.min.css">
 
-    {{-- for time and date 02-02-2023  --}}
+    <!-- for time and date 02-02-2023 -->
     <link rel="stylesheet" href="{{asset('backend/')}}/plugins/summernote/bootstrap-datetimepicker.min.css">
 
     <!-- jQuery -->
@@ -58,14 +58,14 @@
                 <li class="nav-item d-none d-sm-inline-block">
                     <a href="{{asset('/')}}" class="nav-link">Home</a>
                 </li>
-                {{-- <li class="nav-item d-none d-sm-inline-block">
+                <!-- <li class="nav-item d-none d-sm-inline-block">
                     <a href="#" class="nav-link">Contact</a>
-                </li> --}}
+                </li>  -->
             </ul>
             <!-- Right navbar links -->
             <ul class="navbar-nav ml-auto">         
             <!-- Navbar Search --> 
-                {{-- <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" data-widget="navbar-search" href="#" role="button">
                     <i class="fas fa-search"></i>
                     </a>
@@ -84,12 +84,11 @@
                           </div>
                       </form>
                     </div>
-                </li>  --}}
+                </li> 
                 <!-- Notifications Dropdown Menu -->
                 <li class="nav-item dropdown">
                     <a class="nav-link" data-toggle="dropdown" href="#">
                         <button class="btn btn-info">
-                        {{-- <span>{{Auth::user()->name}}</span> --}}
                           <span>Name</span>
                         </button>
                     </a>
@@ -189,9 +188,9 @@
     <!-- overlayScrollbars -->
     <script src="{{asset('backend/')}}/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
     <!-- AdminLTE App -->
-    {{-- <script src="{{asset('backend/')}}/dist/js/adminlte.js"></script>  --}}
+    <!-- <script src="{{asset('backend/')}}/dist/js/adminlte.js"></script>  --}} -->
     <!-- AdminLTE for demo purposes -->
-    {{-- <script src="{{asset('backend/')}}/dist/js/demo.js"></script> --}}
+    <!-- <script src="{{asset('backend/')}}/dist/js/demo.js"></script> --}} -->
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src="{{asset('backend/')}}/dist/js/pages/dashboard.js"></script> 
     <!-- DataTables  & Plugins -->

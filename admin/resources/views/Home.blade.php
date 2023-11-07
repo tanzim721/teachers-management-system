@@ -4,6 +4,5 @@
 
 @section('content')
     @section('page_name', 'Home')
-
     
 @endsection

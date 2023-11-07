@@ -6,7 +6,7 @@
             <button class="btn btn-sidebar">
                 <i class="fas fa-search fa-fw"></i>
             </button>
-        </div> 
+        </div>  
     </div>
 </div>
 <!-- Sidebar Menu -->
@@ -36,6 +36,7 @@
                 </p>
             </a>
         </li>
+        
         <li class="nav-item">
             <a href="{{route('gallery.view')}}" class="nav-link"> 
                 <i class="nav-icon fa fa-image" aria-hidden="true"></i> 
@@ -52,6 +53,46 @@
                 </p>
             </a>
         </li>
+        <li class="nav-item">
+            <a href="" class="nav-link"> 
+                <i class="nav-icon fa fa-bell" aria-hidden="true"></i> 
+                <p> Notice
+                    <i class="fas fa-angle-left right"></i>
+                </p>
+            </a>
+        </li>        
+        <li class="nav-item">
+            <a href="" class="nav-link"> 
+                <i class="nav-icon fa fa-users" aria-hidden="true"></i> 
+                <p> Session
+                    <i class="fas fa-angle-left right"></i>
+                </p>
+            </a>
+        </li> 
+        <li class="nav-item">
+            <a href="" class="nav-link"> 
+                <i class="nav-icon fa fa-sort-numeric-down" aria-hidden="true"></i>
+                <p> CT or Assignment
+                    <i class="fas fa-angle-left right"></i>
+                </p>
+            </a>
+        </li> 
+        <li class="nav-item">
+            <a href="" class="nav-link"> 
+                <i class="nav-icon fa fa-cash-register" aria-hidden="true"></i>
+                <p> Roll
+                    <i class="fas fa-angle-left right"></i>
+                </p>
+            </a>
+        </li> 
+        <li class="nav-item">
+            <a href="" class="nav-link"> 
+                <i class="nav-icon fa fa-book" aria-hidden="true"></i>
+                <p> Course Code
+                    <i class="fas fa-angle-left right"></i>
+                </p>
+            </a>
+        </li> 
     </ul>
 </nav>
 <!-- /.sidebar-menu
